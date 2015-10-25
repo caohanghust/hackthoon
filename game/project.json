@@ -1,0 +1,23 @@
+{
+    "debugMode" : 1,
+    "noCache": false,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"../",
+
+    "modules" : ["cocos2d","chipmunk"],
+
+    "jsList" : [
+        "src/map.js",
+        "src/resource.js",
+        "src/myApp.js",
+        "src/layer/uiLayer.js",
+        "src/layer/bgLayer.js",
+        "src/layer/gameController.js",
+        "src/model/person.js",
+        "src/model/coin.js",
+        "src/model/barrier.js"
+    ]
+}
